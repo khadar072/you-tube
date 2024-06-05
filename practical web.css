@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.header{
+    width:100%;
+    height: 65px;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: beige;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.header h2{
+    padding: 10px;
+    font-size: 36px;
+    font-family: Arial;
+    font-weight: 600;
+}
+.header h2 span{
+    color: brown;
+    font-size: 30px;
+}
+.header li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.header li a{
+    font-size: 20px;
+    padding-left: 16px;
+    color:black;
+    transition: all .4s  ;
+}
+.header li a:hover{
+    color: rgb(10, 90, 238);
+    font-size: 25px;
+}
+.header li a:nth-child(){
+    margin-right: 10px;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.footer-1{
+    background-color: rgb(3, 20, 14);
+    width: 100%;
+    height: 240px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    padding: 5%;
+    border-radius: 20% 0 0 0;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 25%;
+}
+.ft1 h3{
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    margin-bottom: 10px ;
+    color: white;
+    position: relative;
+   
+}
+.ft1 h3::after{
+    content: " ";
+    position: absolute;
+    border: 1px solid red;
+    width: 40%;
+    height: 0;
+    bottom:  0;
+    left: 30px;
+    border-radius: 50px;
+}
+.ft1 ul li{
+    padding-top: 10px;
+    
+}
+.ft1 li a{
+    color: #bbbbbb;
+    padding-left: 20px;  
+    font-family: Arial;
+    text-transform: capitalize;
+    font-size: 13px;
+    display: block;
+    transition: .4s;
+    width: 100%;
+}
+.ft1 li a:hover{
+   padding-left: 30px;
+   color: aliceblue;
+}
+.section{
+    margin: 50px auto;
+    display: grid;
+    flex: 1;
+    grid-template-columns: repeat(3,1fr );
+    grid-gap: 5px;
+    
+}
+
+.section .blok{
+    background-color: rgb(192, 206, 186);
+    border-radius: 10px;
+    margin: 2%; 
+    height: 200px; 
+    padding: 5px;
+}
+

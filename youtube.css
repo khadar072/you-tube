@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+    
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    width: 45px;
+}
+
+/*-----------------this is header-----------*/
+
+header{
+    position: sticky;
+    background-color: white;
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+    top: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 10;
+}
+.heeader-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .left{
+    display: flex;
+    align-items: center;
+    /* padding-top: 10px; */
+    padding-left: 15px;
+    
+}
+header .left .harm{
+    width: 25px;
+    margin-right: 15px;
+}
+header .left a .logo{
+    width: 85px;
+}
+header .right{
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+}
+header .right img{
+    width: 25px;
+    /* padding-top: 10%; */
+    margin-right: 10px;
+}
+header .right a .user{
+    width: 35px;
+    margin-right: 0;
+}
+header .center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center .search-box img{
+    width: 25px;
+}
+.center .search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    border: 1px solid rgb(51, 48, 44);
+    border-radius: 25px;
+}
+.center .search-box input{
+    width: 400px;
+    border: none;
+    outline: none;
+    /* border-right: 1px solid rgb(51, 48, 44); */
+}
+.center .voice{
+    width: 35px;
+    margin-left: 5px;
+ }
+
+
+/*-----------------this is navbart-----------*/
+
+/*-----------------this is sidebar-----------*/
+ .navbar{
+    display: flex;
+    
+}
+ /*-----------------this is sidebar-----------*/
+.navbar .nav-left{
+    position: fixed;
+    width: 120px;
+    height: 100vh;
+    
+}
+.navbar .nav-left{
+    /* background-color: #5a5a5a; */
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav-left .icon{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    margin-top: 10px;  
+    padding: 5px;
+    border-radius: 10px;
+}
+.nav-left .icon img{
+    width: 25px;
+    font-size: 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+    /* margin-left: 10px; */
+    
+}
+.nav-left .icon:hover{
+    background-color: rgb(225, 221, 216);
+}
+.nav-left .icon:first-child{
+    background-color: rgb(225, 221, 216);
+}
+/*-----------------this is mainbar-----------*/
+.navbar .main-part{
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+    margin-left: 100px;
+}
+
+.main-part{
+    display: grid;
+    flex: 1;
+    grid-template-columns: repeat(3,1fr );
+    grid-gap: 5px;
+}
+.main-part .boxs{
+    background-color: rgb(3, 12, 12);
+    border-radius: 10px;
+    margin: 2%; 
+    height: 200px; 
+}
+
+
+
+
+
